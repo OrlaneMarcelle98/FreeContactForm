@@ -1,0 +1,154 @@
+/*root{
+-webkit-appearance:none;
+box-shadow: inset 1px 1px 1px #000000;
+background-color: blue;
+}
+
+#ifd input[type="radio"]:checked{
+-webkit-appearance:radio;
+box-shadow: none;
+background-color: blue;
+}
+*/
+input[type=radio]
+{
+    background-color: blue;
+    color: white;
+   font-size:12px;
+   font-family:arial;
+}
+
+body{
+    background-image: url(skills.jfif);/*https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    font-weight:400;
+}
+
+body .container{
+    position: relative;
+    max-width:1500px;
+    background-color:#262645;
+    height: 1550px;
+    margin: 2% 15% 0% 20%;
+    padding: 10px 0px 10px 30px;
+    opacity: 0.9;
+
+}
+header{
+    max-width:700px;
+    height: 5%;
+    margin: 3% 30% 0% 30% ;
+    text-align: center;
+    padding-top: 0%;
+}
+
+
+.header.p1{
+    color: white;
+    font-weight: 300;
+    min-width: 500px;
+    text-align: justify;
+
+}
+header .p2{
+     font-style: italic;
+     font-size: 14px;
+}
+
+ .container .box {
+    position: relative;
+    min-width: 95%;
+    max-width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius:5px; 
+    font-size: 18px;
+      padding-left: 10px;
+      border:2px solid #80bdff ;
+          
+}
+
+.box :focus{
+    
+
+
+}
+   .container form{
+    margin-top: 40px;
+    
+}
+
+label {
+    color: white;
+}
+
+ .container .boxSelect{
+    position: relative;
+    min-width: 96%;
+    max-width: 1000px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius:5px; 
+    font-size: 18px;
+    border-color:  #80bdff ;
+    padding-left: 10px;
+
+}
+
+   .boxSelect:hover{
+    border: 1px solid #80bdff ;
+}
+
+
+
+
+.check{
+    margin-top: 10px;
+    width: 23px;
+    height: 23px;
+    font-size: 23px;
+    background-color: blue;
+     color: white;
+}
+
+ #rad{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.boxarea{
+
+    position: relative;
+    min-width: 95%;
+    max-width: 100%;
+    height: 100px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+
+}
+
+.soumettre{
+    position: relative;
+    min-width: 96%;
+    max-width: 100%;
+    height: 30px;
+    font-size: 14px;
+    border-color: #37af65;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #37af65;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulaire.css">
+    <title>FormulaireFreeCode</title>
+</head>
+<body>
+    <header>
+        <p class="p1"> freeCodeCamp Survey Form<br>
+        <em style="font-size: 14px;">Thank you for taking the time to help us improve the platform </em></p>
+
+    </header>
+
+    <div class="container">
+      <form action="url" method="post">
+      <label for="idNom">Name</label><br>
+      <input class="box" type="email" name="mail" placeholder="Enter your name"  size="20"  maxlength="30"  autofocus required/>
+
+      <label for="mail">Email</label><br>
+      <input  class="box"type="mail" name="mail"  placeholder="Enter your Email" autofocus required />
+
+      <label for="idAge">Age(optional)</label><br>
+      <input  class="box" type="number" placeholder="Age" autofocus required/>
+
+      <label for="idrole">Which option best describes tour current role ? </label><br>
+      <select name="idrole"  class=" boxSelect"autofocus required>
+        <option disabled selected  value="1">Select  current role  </option>
+        <option value="2">Student</option>
+        <option value="3">Full time Job</option>
+        <option value="4">Full time Learner</option>
+        <option  value="5">Prefer not to say</option>
+        <option value="6">Other</option>
+    </select>
+      <div id="ifd">
+        <label for="recommandation">Would you recommend freeCodeCamp to a friend ? </label><br><br>
+        <input id="rad" type ="radio" name="first" value="1" checked>Definitely<br><br>
+        <input  id="rad" type ="radio" name="first" value="2">Maybe<br><br>
+        <input id="rad" type ="radio" name="first" value="3">Not sure<br><br>
+    </div>
+
+        <label for="recommandation">What is your favorite feature of freeCodeCamp ?</label><br>
+        <select name="idrole"  class=" boxSelect" autofocus required>
+            <option value="1"   checked  >Select an option   </option>
+            <option value="2">Challenges</option>
+            <option value="3">Projects</option>
+            <option value="4">Opensource</option>
+        </select>
+           <label>What Would you like to see inproved?( Check all that apply)</label><br>
+           <input  class="check"  type ="checkbox" name="first" value="1" >Front-end Projects<br>
+           <input   class="check"type ="checkbox" name="second" value="2">Back-end Projects<br>
+           <input class="check" type ="checkbox" name="three" value="3">Data Visualization<br>
+           <input  class="check"  type ="checkbox" name="four" value="4">Challenges<br>
+           <input   class="check"type ="checkbox" name="five" value="5">Open Source Community <br>
+           <input class="check" type ="checkbox" name="six" value="6">Gitter help rooms<br>
+           <input  class="check" type ="checkbox" name="seven" value="7" >Videos<br>
+           <input  class="check" type ="checkbox" name="eight" value="8">City Meetups<br>
+           <input  class="check" type ="checkbox" name="nine" value="9">Wiki<br>
+           <input class="check" type ="checkbox" name="ten" value="10">Forum<br>
+           <input  class="check"type ="checkbox" name="twelve" value="11">Additional Courses<br><br>
+           Any comments or suggestions?
+          <textarea  class="boxarea" placeholder="Enter your comment here..."></textarea>
+          <input  class="soumettre" type="submit" value="Submit"></button>
+    
+         
+
+
+
+
+
+
+
+      </form>
+
+
+
+
+
+
+
+
+    </div>
+
+    
+</body>
+</html>
